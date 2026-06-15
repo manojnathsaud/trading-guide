@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trading Glossary — Trading Guide</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <nav class="navbar">
+    <div class="navbar-inner">
+      <a href="index.html" class="nav-logo"><span aria-hidden="true">📈</span> Trading <span>Guide</span></a>
+      <button class="nav-toggle" onclick="document.querySelector('.nav-links').classList.toggle('open')" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="TradingGuidePage1/TradingGuidePage1.html">Basics</a></li>
+        <li><a href="TradingGuidePage2/TradingGuidePage2.html">System</a></li>
+        <li><a href="TradingGuidePage3/TradingGuidePage3.html">Price Action</a></li>
+        <li><a href="TradingGuidePage4/TradingGuidePage4.html">4-Candle</a></li>
+        <li><a href="TradingGuidePage5/TradingGuidePage5.html">Cycles</a></li>
+        <li><a href="TradingGuidePage6/TradingGuidePage6.html">PO3</a></li>
+        <li><a href="TradingGuidePage7/TradingGuidePage7.html">Strategies</a></li>
+        <li><a href="glossary.html" class="active">Glossary</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main class="main-content">
+
+    <h1 class="page-title"><span aria-hidden="true">🔎</span> Trading Glossary</h1>
+    <p class="page-subtitle">Plain-language definitions for the core concepts used throughout the guide. Use this page when a setup mentions a term like MSS, OB, FVG, liquidity sweep, or RR.</p>
+
+    <div class="callout callout-blue mb-3">
+      <strong>How to use this glossary:</strong> Read the definition first, then follow the related chapter link for examples and checklists. These terms describe educational concepts, not guaranteed market behavior.
+    </div>
+
+    <div class="glossary-grid">
+
+      <article class="glossary-term" id="risk-reward">
+        <h2>Risk-Reward (RR)</h2>
+        <p>The relationship between the amount you can lose if the stop loss is hit and the amount you can gain if the target is reached. A 1:3 RR means risking 1 unit to aim for 3 units.</p>
+        <span class="related">Related: <a href="TradingGuidePage2/TradingGuidePage2.html#risk">Risk Management</a></span>
+      </article>
+
+      <article class="glossary-term" id="risk-per-trade">
+        <h2>Risk per Trade</h2>
+        <p>The maximum percentage of account capital you are willing to lose on one trade. In this guide, position size should be adjusted so the total trade risk stays within the 1-2% cap.</p>
+        <span class="related">Related: <a href="TradingGuidePage1/TradingGuidePage1.html#risk-management-basics">Risk Management Basics</a></span>
+      </article>
+
+      <article class="glossary-term" id="support-resistance">
+        <h2>Support & Resistance</h2>
+        <p>Support is a price area where buyers may defend the market. Resistance is a price area where sellers may defend it. Treat them as zones, not exact lines.</p>
+        <span class="related">Related: <a href="TradingGuidePage1/TradingGuidePage1.html#support-resistance">Support & Resistance</a></span>
+      </article>
+
+      <article class="glossary-term" id="market-structure">
+        <h2>Market Structure</h2>
+        <p>The pattern of swing highs and swing lows. Higher highs and higher lows suggest an uptrend; lower highs and lower lows suggest a downtrend.</p>
+        <span class="related">Related: <a href="TradingGuidePage2/TradingGuidePage2.html#structure">Market Structure Check</a></span>
+      </article>
+
+      <article class="glossary-term" id="liquidity">
+        <h2>Liquidity</h2>
+        <p>Areas where many orders may be resting, often around previous highs/lows, equal highs/lows, or obvious support/resistance. In this guide, liquidity is used as a map for where price may react.</p>
+        <span class="related">Related: <a href="TradingGuidePage3/TradingGuidePage3.html#liquidity">Liquidity Grab</a></span>
+      </article>
+
+      <article class="glossary-term" id="liquidity-sweep">
+        <h2>Liquidity Sweep / Stop Hunt</h2>
+        <p>A move beyond a visible high or low that triggers orders, then quickly reverses. It is only useful as a setup after confirmation, not as a standalone entry signal.</p>
+        <span class="related">Related: <a href="TradingGuidePage6/TradingGuidePage6.html#manipulation">PO3 Manipulation</a></span>
+      </article>
+
+      <article class="glossary-term" id="mss">
+        <h2>Market Structure Shift (MSS)</h2>
+        <p>A change in structure after a sweep or trend leg. For example, after a downtrend, price breaks the most recent lower high with momentum. MSS is used as confirmation that direction may be changing.</p>
+        <span class="related">Related: <a href="TradingGuidePage3/TradingGuidePage3.html#mss">Market Structure Shift</a></span>
+      </article>
+
+      <article class="glossary-term" id="order-block">
+        <h2>Order Block (OB)</h2>
+        <p>The last opposite candle or small zone before a strong impulse move that breaks structure. The guide uses OBs as possible pullback entry zones, especially when they overlap with other confluence.</p>
+        <span class="related">Related: <a href="TradingGuidePage3/TradingGuidePage3.html#entry">Institutional Entry</a></span>
+      </article>
+
+      <article class="glossary-term" id="fair-value-gap">
+        <h2>Fair Value Gap (FVG)</h2>
+        <p>A three-candle imbalance where price moved quickly and left an inefficient area between candle 1 and candle 3. Traders often watch for price to revisit that area before continuing.</p>
+        <span class="related">Related: <a href="TradingGuidePage3/TradingGuidePage3.html#entry">FVG Entry Zone</a></span>
+      </article>
+
+      <article class="glossary-term" id="confluence">
+        <h2>Confluence</h2>
+        <p>Multiple reasons supporting the same trade idea, such as higher timeframe trend, key level, volume, candlestick confirmation, OB, and FVG alignment.</p>
+        <span class="related">Related: <a href="TradingGuidePage7/TradingGuidePage7.html#combining">Combining Strategies</a></span>
+      </article>
+
+      <article class="glossary-term" id="po3">
+        <h2>Power of 3 (PO3)</h2>
+        <p>An intraday model with three phases: accumulation, manipulation, and distribution/expansion. The guide uses PO3 to avoid chasing the first breakout and wait for confirmation.</p>
+        <span class="related">Related: <a href="TradingGuidePage6/TradingGuidePage6.html#overview">PO3 Overview</a></span>
+      </article>
+
+      <article class="glossary-term" id="accumulation">
+        <h2>Accumulation</h2>
+        <p>A sideways or quiet phase where price builds a range. In PO3 it often precedes a false breakout. In market cycles it can also describe a longer bottoming phase.</p>
+        <span class="related">Related: <a href="TradingGuidePage5/TradingGuidePage5.html#phase1">Market Cycle Accumulation</a></span>
+      </article>
+
+      <article class="glossary-term" id="breakout">
+        <h2>Breakout</h2>
+        <p>A close beyond a support or resistance level. The guide favors breakout trades after confirmation and retest, and warns against chasing the first session breakout during possible PO3 manipulation.</p>
+        <span class="related">Related: <a href="TradingGuidePage7/TradingGuidePage7.html#breakout">Breakout Strategy</a></span>
+      </article>
+
+      <article class="glossary-term" id="pullback">
+        <h2>Pullback</h2>
+        <p>A temporary move back toward a key level during a broader trend or after a breakout. Pullbacks can offer cleaner entries than chasing an impulse candle.</p>
+        <span class="related">Related: <a href="TradingGuidePage7/TradingGuidePage7.html#pullback">Pullback Strategy</a></span>
+      </article>
+
+      <article class="glossary-term" id="retest">
+        <h2>Retest</h2>
+        <p>When price returns to a level it recently broke. A successful retest may show that old resistance is acting as support, or old support is acting as resistance.</p>
+        <span class="related">Related: <a href="TradingGuidePage7/TradingGuidePage7.html#breakout">Breakout Retest</a></span>
+      </article>
+
+      <article class="glossary-term" id="partials">
+        <h2>Partial Profit</h2>
+        <p>Closing part of a position before the final target. The guide suggests partials around 1:2 RR, then managing the rest toward the planned target.</p>
+        <span class="related">Related: <a href="TradingGuidePage2/TradingGuidePage2.html#management">Trade Management</a></span>
+      </article>
+
+    </div>
+
+    <div class="page-nav">
+      <a href="TradingGuidePage7/TradingGuidePage7.html">← Previous: Strategies</a>
+      <a href="index.html">Back to Home →</a>
+    </div>
+
+  </main>
+
+  <footer class="footer">
+    <p>Trading Guide — Built for disciplined traders.</p>
+    <p class="disclaimer">⚠ This guide is for educational purposes only and is not financial advice. Trading involves risk, including possible loss of capital. Always do your own research before making any financial decisions.</p>
+  </footer>
+
+</body>
+</html>

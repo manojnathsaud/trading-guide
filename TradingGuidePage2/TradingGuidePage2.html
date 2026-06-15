@@ -17,13 +17,14 @@
       </button>
       <ul class="nav-links">
         <li><a href="../index.html">Home</a></li>
-        <li><a href="../TradingGuidePage1/TradingGuidePage1.html">Page 1</a></li>
-        <li><a href="TradingGuidePage2.html" class="active">Page 2</a></li>
-        <li><a href="../TradingGuidePage3/TradingGuidePage3.html">Page 3</a></li>
-        <li><a href="../TradingGuidePage4/TradingGuidePage4.html">Page 4</a></li>
-        <li><a href="../TradingGuidePage5/TradingGuidePage5.html">Page 5</a></li>
-        <li><a href="../TradingGuidePage6/TradingGuidePage6.html">Page 6</a></li>
-        <li><a href="../TradingGuidePage7/TradingGuidePage7.html">Page 7</a></li>
+        <li><a href="../TradingGuidePage1/TradingGuidePage1.html">Basics</a></li>
+        <li><a href="TradingGuidePage2.html" class="active">System</a></li>
+        <li><a href="../TradingGuidePage3/TradingGuidePage3.html">Price Action</a></li>
+        <li><a href="../TradingGuidePage4/TradingGuidePage4.html">4-Candle</a></li>
+        <li><a href="../TradingGuidePage5/TradingGuidePage5.html">Cycles</a></li>
+        <li><a href="../TradingGuidePage6/TradingGuidePage6.html">PO3</a></li>
+        <li><a href="../TradingGuidePage7/TradingGuidePage7.html">Strategies</a></li>
+        <li><a href="../glossary.html">Glossary</a></li>
       </ul>
     </div>
   </nav>
@@ -178,7 +179,7 @@
       <p>Before entering trade:</p>
       <ul class="checklist">
         <li>Stop loss defined</li>
-        <li>Risk per trade = <strong>1-2% maximum</strong></li>
+        <li>Risk per trade = <strong>1-2% maximum</strong> of capital</li>
         <li>Risk-Reward <strong>minimum 1:3</strong></li>
       </ul>
 
@@ -189,6 +190,9 @@
 
       <div class="callout callout-red mt-2">
         If RR &lt; 1:3 → <strong>skip trade</strong>
+      </div>
+      <div class="callout callout-blue mt-2">
+        <strong>Position size note:</strong> Changing size means adjusting the number of shares/lots so total risk stays within the same 1-2% account cap.
       </div>
     </div>
 
@@ -252,9 +256,9 @@
     <!-- Section 13 -->
     <div class="section-card" id="position-size">
       <h2><span aria-hidden="true">📏</span> 13. Position Size Adjustment</h2>
-      <p>Trend direction matters.</p>
-      <div class="callout callout-green">With trend → <strong>larger size</strong></div>
-      <div class="callout callout-red">Against trend → <strong>smaller size</strong></div>
+      <p>Trend direction matters, but the account-risk cap still comes first.</p>
+      <div class="callout callout-green">With trend → <strong>normal planned size</strong> if RR and setup quality are valid</div>
+      <div class="callout callout-red">Against trend → <strong>reduced size or skip</strong> because probability is lower</div>
       <div class="callout callout-warn mt-2">
         Never average <strong>losing trades</strong>.
       </div>
@@ -288,10 +292,10 @@
     </div>
 
     <!-- Golden Rule -->
-    <div class="section-card" style="border-color: var(--accent-gold); background: rgba(240, 185, 11, 0.05);">
+    <div class="section-card highlight-card">
       <h2><span aria-hidden="true">⭐</span> The Golden Rule</h2>
       <p>Successful trading =</p>
-      <div class="callout callout-gold text-center" style="font-size: 1.15rem;">
+      <div class="callout callout-gold text-center large-callout">
         <strong>Edge + Risk Management + Discipline + Consistency</strong>
       </div>
       <p class="text-center text-muted mt-2">Not a secret strategy.</p>
@@ -308,7 +312,7 @@
   <!-- Footer -->
   <footer class="footer">
     <p>Trading Guide — Built for disciplined traders.</p>
-    <p class="disclaimer">⚠ This is for educational purposes only. Trading involves risk. Always do your own research before making any financial decisions.</p>
+    <p class="disclaimer">⚠ This guide is for educational purposes only and is not financial advice. Trading involves risk, including possible loss of capital. Always do your own research before making any financial decisions.</p>
   </footer>
 
 </body>
