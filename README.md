@@ -12,6 +12,8 @@ Chapters:
 - [Chapter 5 — The 7 Phases of a Market Cycle](./TradingGuidePage5/TradingGuidePage5.html)
 - [Chapter 6 — Power of 3 (PO3) Trading Model](./TradingGuidePage6/TradingGuidePage6.html)
 - [Chapter 7 — Complete Trading Strategies & Case Studies](./TradingGuidePage7/TradingGuidePage7.html)
+- [Glossary — Key Trading Terms](./glossary.html)
 
-> ⚠️ **Disclaimer:** This guide is for educational purposes only. Trading involves risk.
-> Always do your own research before making any financial decisions.
+> ⚠️ **Disclaimer:** This guide is for educational purposes only and is not financial
+> advice. Trading involves risk, including possible loss of capital. Always do your
+> own research before making any financial decisions.
