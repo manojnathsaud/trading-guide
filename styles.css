@@ -154,6 +154,14 @@ img { max-width: 100%; height: auto; }
 }
 .section-card:hover { border-color: #484f58; }
 
+.section-card img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin: 16px 0;
+  border: 1px solid var(--border-color);
+}
+
 .section-card h2 {
   font-size: 22px;
   font-weight: 700;
